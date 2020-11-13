@@ -12,7 +12,6 @@ export default function Inicio() {
             <Link to="/razones-de-cambio">
               Rapidez de crecimiento del área de un círculo
             </Link>
-            <Link to="/razones-de-cambio">Ejercio 2</Link>
           </Tema>
         </div>
       </div>
