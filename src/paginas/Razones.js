@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import Pregunta from "../componentes/Pregunta";
 
 export default function Razones() {
+  const [score, setScore] = useState(0);
   return (
     <div className="container">
       <div className="row py-4 py-mb-5">
@@ -15,7 +17,7 @@ export default function Razones() {
       </div>
       <div className="row py-5 bg-white">
         <div className="col-5 d-flex align-items-center justify-content-center">
-          <div className="wrap-anim"></div>
+          <div className="wrap-anim">{score}</div>
         </div>
         <div className="col-7">
           <p>
@@ -24,17 +26,14 @@ export default function Razones() {
           </p>
         </div>
       </div>
-      <div className="row py-5 bg-secundario">
-        <div className="col-12 trivia">
-          <p>
-            ¿Cuál es la rapidez o velocidad en la que aumenta el área del
-            círculo formado por dicha onda?
-          </p>
-          <div className="opcion">Opcion A</div>
-          <div className="opcion">Opcion B</div>
-          <div className="opcion">Opcion C</div>
-        </div>
-      </div>
+      <Pregunta
+        setScore={setScore}
+        pregunta="¿Cuál es...?"
+        valida={3}
+        a={20}
+        b={33}
+        c={4}
+      />
     </div>
   );
 }

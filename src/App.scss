@@ -1,4 +1,5 @@
 @import "./estilos/vars";
+@import "./estilos/componentes";
 
 *,
 *::after,
@@ -27,25 +28,4 @@ body {
 .bg-secundario {
   background-color: $secundario;
   color: white;
-}
-
-.trivia {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  .opcion {
-    border: 1px solid white;
-    padding: 0.6rem;
-    margin-bottom: 1rem;
-    min-width: 18rem;
-    transition: 0.3s ease-in;
-
-    &:hover {
-      cursor: pointer;
-      transform: translateY(-3px);
-    }
-  }
 }
