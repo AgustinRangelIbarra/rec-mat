@@ -47,6 +47,16 @@ body {
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.157);
 }
 
+.btn-own-style {
+   text-align: left;
+}
+
+.btn-block:hover {
+   background: rgb(235, 235, 235);
+   text-decoration: none;
+   // cursor: initial;
+}
+
 .myjumbotron {
   padding: 0;
   margin-bottom: 0;

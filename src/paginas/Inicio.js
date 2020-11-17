@@ -18,7 +18,7 @@ export default function Inicio() {
         <div className="col-12">
           {/* Para agregar nuevos temas se necesita utilizar el componente tema y dentro poner las rutas a los distintos ejercicios */}
           <Tema titulo={"Razones de Cambio Relacionadas"}>
-            <Link to="/razones-de-cambio">
+            <Link to="/razones-de-cambio" className="btn btn-block btn-own-style">
               Rapidez de crecimiento del área de un círculo
             </Link>
           </Tema>
