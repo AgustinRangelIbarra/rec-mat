@@ -19,6 +19,8 @@
     &:hover {
       cursor: pointer;
       transform: translateY(-3px);
+      transition-duration: 150ms;
+      background-color: $secundario-degradado;
     }
   }
 

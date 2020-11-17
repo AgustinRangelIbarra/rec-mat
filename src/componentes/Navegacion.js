@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
 export default function Navegacion() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-main">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-main sticky-top">
         <div className="container">
           <Link to="/" className="navbar-brand">
             <img width="70px" src={logo} alt="Logo de Recursos Didácticos Matemáticos"/>
