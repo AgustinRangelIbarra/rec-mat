@@ -18,14 +18,43 @@ body {
   color: white;
 }
 
-.wrap-anim {
+.wrap-anim1 {
+  background-image: url(./assets/onda1.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: $secundario;
-  border-radius: 100%;
-  height: 130px;
-  width: 130px;
+  border-radius: 8px;
+  height: 180px;
+  width: 180px;
+}
+
+.bg-primario {
+  background-color: $primario;
+  color: white;
 }
 
 .bg-secundario {
   background-color: $secundario;
   color: white;
+}
+
+.card-header:hover {
+  cursor: pointer;
+}
+
+.card-body {
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.157);
+}
+
+.myjumbotron {
+  padding: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  background-image: linear-gradient(#5a5959be, rgba(110, 109, 109, 0.253)),
+    url("https://images.unsplash.com/photo-1453733190371-0a9bedd82893?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
