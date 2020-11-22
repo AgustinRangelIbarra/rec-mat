@@ -1,0 +1,100 @@
+{
+	"data": [
+		{
+			"id": "101",
+			"materia": "Cálculo Diferencial",
+			"tema": "Razones de Cambio Relacionadas",
+			"subtemas": {
+				"subtema1": {
+					"titulo": "Rapidez de Crecimiento del área de un Círculo",
+					"instrucciones": "A continuación se te presenta un ejemplo del tema “Razones de cambio relacionadas” Síguelo con detenimiento:",
+					"plantemiento": "Al arrojar una piedra a un estanque de agua tranquila se forman ondas circulares concéntricas cuyos radios aumentan de longitud al paso del tiempo. Su radio aumenta a una rapidez o velocidad de 50 cm/seg.",
+					"pregunta": "¿Cuál es la rapidez o velocidad en la que aumenta el área del círculo formado por dicha onda?",
+					"frase_motivacion": "Tomate un momento y reflexiona",
+					"respuestas": {
+						"respuesta_correcta": "9.4248 m^2/s",
+						"respuesta_relleno1": "m^2/s",
+						"respuesta_relleno2": "m^2/s",
+						"respuesta_relleno3": "m^2/s"
+					}, 
+					"pista": "Diámetro de la piedra, velocidad",
+					"explicacion": "¿Cuáles son las variables y sus valores, las identificaste? (Determinar las variables y sus valores correspondientes) Bien ahora, veamos las fórmulas: El área del círculo es A=πr2……………….(1) La razón de cambio de A con respecto al tiempo t se obtiene derivando ambos miembros en la ecuación (1)  con respecto al tiempo: dAdt=ddtr2t=2π rtdrdt……………..…(2) Para el ejemplo se tiene: En el caso particular en que: El radio rt=3 m y la derivada del radio con respecto al tiempo y y drdt=0.5ms: Sustituyendo en la ecuación (2) se tiene que: dAdt=2 3 m0.5ms=3m2s ≈9.4248 m2s En el instante en que el radio de la onda es de 3m, su velocidad es de 0.5 m/seg y la velocidad de crecimiento del área del círculo que ha formado la onda es de 3π m2/seg o sea 9.4248 resultado obtenido aplicando la fórmula",
+					"material_extra": "https://www.youtube.com/watch?v=w0x1oApttpk&ab_channel=1aconBerni",
+					"recursos_interactivos": {
+						"rec_ayuda1": "rec-ayuda1",
+						"rec_ayuda2": "rec-ayuda2",
+						"rec_respuesta": "rec-respuesta1"
+					}
+				}
+			}
+		},
+		{
+			"id": "201",
+			"materia": "Cálculo Diferencial",
+			"tema": "Tema 2",
+			"subtemas": {
+				"subtema1": {
+					"titulo": "SUbtema 1",
+					"instrucciones": "",
+					"titulo_ejemplo": "",
+					"plantemiento": "",
+					"pregunta": "",
+					"recurso_interactivo": "",
+					"frase_motivacion": "",
+					"respuestas": {
+						"respuesta_correcta": "",
+						"respuesta_relleno1": "",
+						"respuesta_relleno2": "",
+						"respuesta_relleno3": ""
+					}, 
+					"pista": "",
+					"explicacion": "",
+					"material_extra": ""
+				},
+				"subtema2": {
+					"titulo": "Subtema 2",
+					"instrucciones": "",
+					"titulo_ejemplo": "",
+					"plantemiento": "",
+					"pregunta": "",
+					"recurso_interactivo": "",
+					"frase_motivacion": "",
+					"respuestas": {
+						"respuesta_correcta": "",
+						"respuesta_relleno1": "",
+						"respuesta_relleno2": "",
+						"respuesta_relleno3": ""
+					}, 
+					"pista": "",
+					"explicacion": "",
+					"material_extra": ""
+				}
+			}
+		},
+		{
+			"id": "201",
+			"materia": "Cálculo Diferencial",
+			"tema": "Tema 3",
+			"subtemas": {
+				"subtema1": {
+					"titulo": "Subtema 1",
+					"instrucciones": "",
+					"titulo_ejemplo": "",
+					"plantemiento": "",
+					"pregunta": "",
+					"recurso_interactivo": "",
+					"frase_motivacion": "",
+					"respuestas": {
+						"respuesta_correcta": "",
+						"respuesta_relleno1": "",
+						"respuesta_relleno2": "",
+						"respuesta_relleno3": ""
+					}, 
+					"pista": "",
+					"explicacion": "",
+					"material_extra": ""
+				}
+			}
+		}
+	]
+}
