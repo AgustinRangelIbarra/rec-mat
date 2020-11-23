@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Temas() {
   	return (
-		data.map((postData) => {
+		data.map((postData, index) => {
 			return (
 				<div id="accordion">
 					<div className="card">
@@ -15,6 +15,7 @@ function Temas() {
 							data-target="#collapseOne"
 							aria-expanded="true"
 							aria-controls="collapseOne"
+							// eventKey={index+1}
 						>
 							<h5>{ postData.tema }</h5>
 						</div>
