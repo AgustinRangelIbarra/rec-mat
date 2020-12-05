@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
-export default function Pregunta({ setScore, pregunta, valida, a, b, c }) {
+export default function Pregunta({ setScore, pregunta, valida, a, b, c, d}) {
   const [activo, setActivo] = useState(true);
   const [respuesta, setRespuesta] = useState(null);
   const [borde, setBorde] = useState(null);
+  
   function verifica(r) {
     if (valida === r && activo) {
       setRespuesta(r);
@@ -18,28 +19,37 @@ export default function Pregunta({ setScore, pregunta, valida, a, b, c }) {
       setBorde(borde);
     }
   }
+  
   return (
     <div className="row py-5 bg-secundario">
       <div className="col-12 trivia">
         <p className="trivia__titulo">{pregunta}</p>
-        <div
-          onClick={() => verifica(1)}
-          className={`opcion ${respuesta === 1 ? borde : ""}`}
-        >
-          {a}
-        </div>
-        <div
-          onClick={() => verifica(2)}
-          className={`opcion ${respuesta === 2 ? borde : ""}`}
-        >
-          {b}
-        </div>
-        <div
-          onClick={() => verifica(3)}
-          className={`opcion ${respuesta === 3 ? borde : ""}`}
-        >
-          {c}
-        </div>
+		  	<div className="trivia__respuestas">
+				<div
+					onClick={() => verifica(1)}
+					className={`opcion ${respuesta === 1 ? borde : ""}`}
+				>
+					{a}
+				</div>
+				<div
+					onClick={() => verifica(2)}
+					className={`opcion ${respuesta === 2 ? borde : ""}`}
+				>
+					{b}
+				</div>
+				<div
+					onClick={() => verifica(3)}
+					className={`opcion ${respuesta === 3 ? borde : ""}`}
+				>
+					{c}
+				</div>
+				<div
+					onClick={() => verifica(4)}
+					className={`opcion ${respuesta === 4 ? borde : ""}`}
+				>
+					{d}
+				</div>
+			</div>
       </div>
     </div>
   );

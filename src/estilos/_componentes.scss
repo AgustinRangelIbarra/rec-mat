@@ -1,25 +1,34 @@
 .trivia {
+	color: rgb(37, 37, 37);
+	border-color: rgb(127, 127, 236);
+	border: 1px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+//   align-items: center;
+//   justify-content: space-between;
 
   .trivia__titulo {
     margin-bottom: 2rem;
   }
 
+  .trivia__respuestas{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+  }
+
   .opcion {
-    border: 1px solid white;
-    padding: 0.6rem;
-    margin-bottom: 1rem;
-    min-width: 18rem;
+    border: 1px solid rgb(124, 124, 124);
+    padding: 0.5rem;
+   //  margin: 0rem 1rem;
+    min-width: 13rem;
     transition: 0.3s ease-in;
 
     &:hover {
       cursor: pointer;
       transform: translateY(-3px);
-      transition-duration: 150ms;
+      transition-duration: 100ms;
       background-color: $secundario-degradado;
     }
   }
