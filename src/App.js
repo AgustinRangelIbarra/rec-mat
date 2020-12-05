@@ -3,9 +3,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-import $ from "jquery";
-import Popper from "popper.js";
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Llamada de los Componentes
@@ -13,7 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navegacion from "./componentes/Navegacion";
 import Inicio from "./paginas/Inicio";
 import Razones from "./paginas/Razones";
-import Footer from './componentes/Footer'
+import Footer from "./componentes/Footer";
 
 // Hoja de Estilos utilizada
 
@@ -29,7 +26,7 @@ function App() {
         <Route path="/" exact={true} component={Inicio} />
         <Route path="/razones-de-cambio" component={Razones} />
       </Switch>
-		<Footer/>
+      <Footer />
     </Router>
   );
 }
