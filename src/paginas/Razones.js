@@ -6,7 +6,7 @@ import Explicacion from "../componentes/Explicacion";
 export default function Razones() {
   const [score, setScore] = useState(0);
   return (
-	  /* TITULO TEMA
+    /* TITULO TEMA
 			TITULO EJERCICIO 
 			INSTRUCCIONES
 			PLANTEAMIENTO
@@ -22,10 +22,11 @@ export default function Razones() {
     <div className="container">
       <div className="row py-3 py-mb-5 jumbotron">
         <main className="col-12 col-md-12">
-          <h1 className="">Rapidez de crecimiento del área de un círculo</h1>			
+          <h1 className="">Rapidez de crecimiento del área de un círculo</h1>
           <p className="instrucciones">
-			 	A continuación se te presenta un ejemplo del tema “Razones de cambio relacionadas”. <br/> Síguelo con detenimiento:
-			 </p>
+            A continuación se te presenta un ejemplo del tema “Razones de cambio
+            relacionadas”. <br /> Síguelo con detenimiento:
+          </p>
         </main>
       </div>
       <div className="row py-5 bg-white">
@@ -38,26 +39,25 @@ export default function Razones() {
             ondas circulares concéntricas cuyos radios aumentan de longitud al
             paso del tiempo.
           </p>
-			 <p className="lead">
+          <p className="lead">
             <b>Cuando la onda exterior tiene un radio de 3m...</b>
           </p>
-				<div className="emoji"></div>
+          <div className="emoji"></div>
         </div>
       </div>
-		
+
       <Pregunta
         setScore={setScore}
         pregunta="¿En cuanto aumenta la rapidez o su velocidad?"
         valida={4}
-        a="20"
-        b="33"
-		  c="4"
-		  d="9.42 m/s^2"
-		/>
-      
-		<ScoreFinal score={score} />
-		<Explicacion/>
+        a="9.22 m/s^2"
+        b="2.92 m/s^2"
+        c="4.42 m/s^2"
+        d="9.42 m/s^2"
+      />
 
+      <ScoreFinal score={score} />
+      <Explicacion />
     </div>
   );
 }
