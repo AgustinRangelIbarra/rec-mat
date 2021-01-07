@@ -20,7 +20,7 @@ export default function Razones() {
 			RECURSOS INTERACTIVOS
 	  */
     <div className="container">
-      <div className="row py-3 py-mb-5 jumbotron">
+      <div className="row py-5 mb-0 jumbotron">
         <main className="col-12 col-md-12">
           <h1 className="">Rapidez de crecimiento del área de un círculo</h1>
           <p className="instrucciones">

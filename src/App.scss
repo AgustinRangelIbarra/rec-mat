@@ -31,6 +31,16 @@ body {
   width: 180px;
 }
 
+.wrap-anim2 {
+  background-image: url(./assets/Escalera.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 8px;
+  height: 120px; // antes 180px
+  width: 180px;
+}
+
 .bg-primario {
   background-color: $primario;
   color: white;

@@ -6,7 +6,7 @@ const Ej3 = () => {
   const [score, setScore] = useState(0);
   return (
     <div className="container">
-      <div className="row py-3 py-mb-5 jumbotron">
+      <div className="row py-5 mb-0 jumbotron">
         <main className="col-12 col-md-12">
           <h1 className="">La escalera</h1>
           <p className="instrucciones">
@@ -17,7 +17,7 @@ const Ej3 = () => {
       </div>
       <div className="row py-5 bg-white">
         <div className="mb-5 col-12 col-md-5 d-flex align-items-center justify-content-center">
-          <div className="wrap-anim1"></div>
+          <div className="wrap-anim2"></div>
         </div>
         <div className="col-12 col-md-7">
           <p className="lead">
@@ -32,7 +32,7 @@ const Ej3 = () => {
       <Pregunta
         setScore={setScore}
         pregunta="¿Qué tan rápido la parte superior de la escalera resbala hacia abajo por la pared cuando la parte inferior de la escalera está a 6 pies del muro?"
-        valida={4}
+        valida={1}
         a="3/4 pies/s"
         b="6/2 pies/s"
         c="12/6 pies/s"
@@ -144,10 +144,7 @@ const Ej3 = () => {
           <div class="card card-body">
             <ul className="list-group">
               <li className="list-group-item">
-                Diámetro de la piedra y velocidad
-              </li>
-              <li className="list-group-item">
-                Su radio aumenta a una rapidez o velocidad de 50 cm/seg
+                Considerar el teorema de Pitágoras
               </li>
             </ul>
           </div>
