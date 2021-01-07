@@ -12,6 +12,7 @@ import Inicio from "./paginas/Inicio";
 import Razones from "./paginas/Razones";
 import Ej3 from "./paginas/Ej3";
 import Footer from "./componentes/Footer";
+import Ej5 from './paginas/Ej5'
 
 // Hoja de Estilos utilizada
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" exact={true} component={Inicio} />
         <Route path="/razones-de-cambio" component={Razones} />
         <Route path="/escalera" component={Ej3} />
+        <Route path="/el-cono" component={Ej5} />
       </Switch>
       <Footer />
     </Router>
