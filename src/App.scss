@@ -41,6 +41,16 @@ body {
   width: 180px;
 }
 
+.wrap-anim5 {
+  background-image: url(./assets/cono.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 8px;
+  height: 120px; // antes 180px
+  width: 180px;
+}
+
 .bg-primario {
   background-color: $primario;
   color: white;

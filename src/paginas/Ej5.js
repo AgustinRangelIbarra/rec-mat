@@ -17,7 +17,7 @@ const Ej5 = () => {
       </div>
       <div className="row py-5 bg-white">
         <div className="mb-5 col-12 col-md-5 d-flex align-items-center justify-content-center">
-          <div className="wrap-anim1"></div>
+          <div className="wrap-anim5"></div>
         </div>
         <div className="col-12 col-md-7">
           <p className="lead">
