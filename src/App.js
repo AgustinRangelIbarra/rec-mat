@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navegacion from "./componentes/Navegacion";
 import Inicio from "./paginas/Inicio";
 import Razones from "./paginas/Razones";
+import Ej3 from "./paginas/Ej3";
 import Footer from "./componentes/Footer";
 
 // Hoja de Estilos utilizada
@@ -25,6 +26,7 @@ function App() {
       <Switch>
         <Route path="/" exact={true} component={Inicio} />
         <Route path="/razones-de-cambio" component={Razones} />
+        <Route path="/escalera" component={Ej3} />
       </Switch>
       <Footer />
     </Router>

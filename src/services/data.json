@@ -25,6 +25,10 @@
 					"rec_ayuda2": "rec-ayuda2",
 					"rec_respuesta": "rec-respuesta1"
 				}
+			},
+			{
+				"titulo": "Escalera",
+				"url": "/escalera"
 			}
 		]
 	},
