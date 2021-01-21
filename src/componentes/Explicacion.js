@@ -3,7 +3,7 @@ import React from "react";
 function Explicacion() {
   return (
     <div className="cont">
-      <div className="container-btn-opciones">
+      <div className="container-btn-opciones py-4">
         <button
           class="btn btn-dark btn-opciones-tema"
           type="button"

@@ -35,50 +35,5 @@
 				"url": "/el-cono"
 			}
 		]
-	},
-	{
-		"id": "201",
-		"materia": "Cálculo Diferencial",
-		"tema": "Tema 2",
-		"subtemas": [
-			{
-				"titulo": "SUbtema 1",
-				"url": "/", 
-				"instrucciones": "",
-				"titulo_ejemplo": "",
-				"plantemiento": "",
-				"pregunta": "",
-				"recurso_interactivo": "",
-				"frase_motivacion": "",
-				"respuestas": {
-					"respuesta_correcta": "",
-					"respuesta_relleno1": "",
-					"respuesta_relleno2": "",
-					"respuesta_relleno3": ""
-				}, 
-				"pista": "",
-				"explicacion": "",
-				"material_extra": ""
-			},
-			{
-				"titulo": "Subtema 2",
-				"url": "/", 
-				"instrucciones": "",
-				"titulo_ejemplo": "",
-				"plantemiento": "",
-				"pregunta": "",
-				"recurso_interactivo": "",
-				"frase_motivacion": "",
-				"respuestas": {
-					"respuesta_correcta": "",
-					"respuesta_relleno1": "",
-					"respuesta_relleno2": "",
-					"respuesta_relleno3": ""
-				}, 
-				"pista": "",
-				"explicacion": "",
-				"material_extra": ""
-			}
-		]
 	}
 ]

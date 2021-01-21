@@ -2,6 +2,8 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import $ from "jquery";
+import Popper from "popper.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -12,7 +14,7 @@ import Inicio from "./paginas/Inicio";
 import Razones from "./paginas/Razones";
 import Ej3 from "./paginas/Ej3";
 import Footer from "./componentes/Footer";
-import Ej5 from './paginas/Ej5'
+import Ej5 from "./paginas/Ej5";
 
 // Hoja de Estilos utilizada
 
