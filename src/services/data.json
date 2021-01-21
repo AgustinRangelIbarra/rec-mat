@@ -5,7 +5,7 @@
 		"tema": "Razones de Cambio Relacionadas",
 		"subtemas":	[
 			{
-				"titulo": "Rapidez de Crecimiento del área de un Círculo",
+				"titulo": "La Onda - Rapidez de Crecimiento del área de un Círculo",
 				"url": "/razones-de-cambio", 
 				"instrucciones": "A continuación se te presenta un ejemplo del tema “Razones de cambio relacionadas” Síguelo con detenimiento:",
 				"plantemiento": "Al arrojar una piedra a un estanque de agua tranquila se forman ondas circulares concéntricas cuyos radios aumentan de longitud al paso del tiempo. Su radio aumenta a una rapidez o velocidad de 50 cm/seg.",
@@ -27,12 +27,20 @@
 				}
 			},
 			{
-				"titulo": "Escalera",
+				"titulo": "El Rectángulo - Velocidad con la que Crece el Área de un Rectángulo",
+				"url": "/rectangulo"
+			},
+			{
+				"titulo": "Escalera y Teorema de Pitágoras",
 				"url": "/escalera"
 			},
 			{
 				"titulo": "El Cono - Depósito de Agua",
 				"url": "/el-cono"
+			},
+			{
+				"titulo": "Dos Automoviles y la Intersección de los Caminos",
+				"url": "/escalera"
 			}
 		]
 	}
