@@ -28,11 +28,11 @@ function App() {
     <Router>
       <Navegacion />
       <Switch>
-        <Route path="/" exact={true} component={Inicio} />
-        <Route path="/razones-de-cambio" component={Razones} />
-        <Route path="/rectangulo" component={Ej2}/>
-        <Route path="/escalera" component={Ej3} />
-        <Route path="/el-cono" component={Ej4} />
+        <Route exact path="/" component={Inicio} />
+        <Route exact path="/razones-de-cambio" component={Razones} />
+        <Route exact path="/rectangulo" component={Ej2}/>
+        <Route exact path="/escalera" component={Ej3} />
+        <Route exact path="/el-cono" component={Ej4} />
       </Switch>
       <Footer />
     </Router>
