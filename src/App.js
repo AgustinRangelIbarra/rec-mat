@@ -28,7 +28,7 @@ function App() {
     <Router>
       <Navegacion />
       <Switch>
-        <Route exact path="/" component={Inicio} />
+        <Route exact path="/inicio" component={Inicio} />
         <Route exact path="/razones-de-cambio" component={Razones} />
         <Route exact path="/rectangulo" component={Ej2}/>
         <Route exact path="/escalera" component={Ej3} />
