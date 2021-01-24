@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import $ from "jquery";
 import Popper from "popper.js";
 
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Llamada de los Componentes
 
@@ -28,7 +28,7 @@ function App() {
     <Router>
       <Navegacion />
       <Switch>
-        <Route exact path="https://voydesvelado.github.io/" component={Inicio} />
+        <Route exact path="/" component={Inicio} />
         <Route exact path="/razones-de-cambio" component={Razones} />
         <Route exact path="/rectangulo" component={Ej2}/>
         <Route exact path="/escalera" component={Ej3} />
