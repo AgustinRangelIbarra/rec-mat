@@ -39,4 +39,9 @@ function App() {
   );
 }
 
+			// {
+			// 	"titulo": "Dos Automoviles y la Intersección de los Caminos",
+			// 	"url": "/escalera"
+			// }
+
 export default App;
