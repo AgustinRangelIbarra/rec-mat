@@ -1,4 +1,4 @@
-# https://agustinrangelibarra.github.io/recursos-mat
+# https://agustinrangelibarra.github.io/rec-mat
 
 -npm install
 
