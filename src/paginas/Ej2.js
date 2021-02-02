@@ -1,19 +1,26 @@
 import React, { useState } from "react";
 import Pregunta from "../services/Pregunta";
 import ScoreFinal from "../componentes/ScoreFinal";
-
+import brain from "../assets/cerebro.gif";
+import clap from "../assets/aplausos.gif";
 const Ej2 = () => {
   const [score, setScore] = useState(0);
   return (
     <div className="container">
       <div className="row py-3 py-mb-5 jumbotron">
         <main className="col-12 col-md-12">
-          <h1 className="">El Rectangulo - Velocidad con la que Crece el Área de un Rectángulo</h1>
+          <h1 className="">
+            El Rectangulo - Velocidad con la que Crece el Área de un Rectángulo
+          </h1>
           <p className="instrucciones">
-          	El siguiente ejercicio es acerca de la velocidad con la que crece el área de un rectángulo…
-          	<br/> Vamos a revisarlo:
+            El siguiente ejercicio es acerca de la velocidad con la que crece el
+            área de un rectángulo…
+            <br /> Vamos a revisarlo:
           </p>
         </main>
+        <div>
+          <img src={brain} alt="cerebro" style={{ height: "140px" }} />
+        </div>
       </div>
       <div className="row py-5 bg-white">
         <div className="mb-5 col-12 col-md-5 d-flex align-items-center justify-content-center">
@@ -21,19 +28,20 @@ const Ej2 = () => {
         </div>
         <div className="col-12 col-md-7">
           <p className="lead">
-			 Considere que un rectángulo incrementa su tamaño a razón de 8 cm/seg y el ancho en 3 cm/seg. 
+            Considere que un rectángulo incrementa su tamaño a razón de 8 cm/seg
+            y el ancho en 3 cm/seg.
           </p>
-			 <p className="lead">
+          <p className="lead">
             <b>
-				Cuando la longitud es de 20 cm y el ancho es de 10 cm <br/>
-				¿Qué tan rápido se incrementó el área del rectángulo?
+              Cuando la longitud es de 20 cm y el ancho es de 10 cm <br />
+              ¿Qué tan rápido se incrementó el área del rectángulo?
             </b>
           </p>
           <div className="emoji"></div>
         </div>
       </div>
 
-      <br/>
+      <br />
 
       <div className="cont">
         <div className="container-btn-opciones">
@@ -62,25 +70,25 @@ const Ej2 = () => {
           <div class="card card-body">
             <ul className="list-group">
               <li className="list-group-item">
-					El área se incrementa con una rapidez...¿de?
+                El área se incrementa con una rapidez...¿de?
               </li>
             </ul>
           </div>
         </div>
-          <br/>
-      <Pregunta
-        setScore={setScore}
-        pregunta="Determine la rapidez a la cual el nivel del agua sube cuando el agua tiene 3 m. de profundidad:"
-        valida={1}
-        a="140.00 cm^2/s"
-        b="12.91 cm^2/s"
-        c="53.05 cm^2/s"
-        d="79.43 cm^2/s"
-      />
+        <br />
+        <Pregunta
+          setScore={setScore}
+          pregunta="Determine la rapidez a la cual el nivel del agua sube cuando el agua tiene 3 m. de profundidad:"
+          valida={1}
+          a="140.00 cm^2/s"
+          b="12.91 cm^2/s"
+          c="53.05 cm^2/s"
+          d="79.43 cm^2/s"
+        />
 
-      <ScoreFinal score={score} />
+        <ScoreFinal score={score} />
 
-      {/* <p>
+        {/* <p>
               <b>Proceso de solución</b>
               <br />
               <br />
@@ -146,24 +154,27 @@ const Ej2 = () => {
               <br />
               <br />
             </p> */}
-				<button
-                class="btn btn-info btn-opciones-tema"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapseRespuesta"
-                aria-expanded="false"
-                aria-controls="collapseRespuesta"
-              >
-                Respuesta
-              </button>
-              <div class="collapse" id="collapseRespuesta">
-                <div className="card-body">
-                  <div className="explication__badge">
-                    <i>El área del rectángulo se incrementó con una rapidez de 140 cm^2/s</i>
-                  </div>
-                </div>
-              </div>
-
+        <button
+          class="btn btn-info btn-opciones-tema"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseRespuesta"
+          aria-expanded="false"
+          aria-controls="collapseRespuesta"
+        >
+          Respuesta
+        </button>
+        <div class="collapse" id="collapseRespuesta">
+          <div className="card-body">
+            <img src={clap} style={{ height: "120px" }} alt="" />
+            <div className="explication__badge">
+              <i>
+                El área del rectángulo se incrementó con una rapidez de 140
+                cm^2/s
+              </i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

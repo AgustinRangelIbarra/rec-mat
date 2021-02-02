@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Pregunta from "../services/Pregunta";
 import ScoreFinal from "../componentes/ScoreFinal";
+import nerd from "../assets/nerd.gif";
+import success from "../assets/thumbsup.gif";
 
 // ESCALERA
 
@@ -42,6 +44,7 @@ const Ej3 = () => {
       />
 
       <ScoreFinal score={score} />
+      <img src={nerd} style={{ height: "120px" }} alt="" />
 
       <div className="cont">
         <div className="container-btn-opciones">
@@ -124,6 +127,7 @@ const Ej3 = () => {
               </button>
               <div class="collapse" id="collapseRespuesta">
                 <div className="card-body">
+                  <img src={success} style={{ height: "120px" }} alt="" />
                   <div className="explication__badge">
                     <i>dy/dt = 6/8(1) = 3/4 pies/s</i>
                   </div>
