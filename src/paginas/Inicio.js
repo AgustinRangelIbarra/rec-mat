@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Temas from "../componentes/Tema";
 
 export default function Inicio() {
+
+  useEffect(() => {
+		window.scrollTo(0, 500);
+  }, []);
+
   return (
     <div className="container">
       <div className="row">
